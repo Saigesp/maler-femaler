@@ -5,6 +5,7 @@ import { quasar, transformAssetUrls } from '@quasar/vite-plugin';
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/maler-femaler/',
   plugins: [
     vue({
       template: { transformAssetUrls },
