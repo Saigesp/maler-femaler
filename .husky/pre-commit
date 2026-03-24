@@ -1,4 +1,9 @@
 #!/usr/bin/env sh
 
+# Sort and remove duplicates in public/names
+for file in public/names/female.txt public/names/male.txt public/names/ignore.txt; do
+    sort -uf "$file" -o "$file"
+done
+
 # npm test
 npm run lint || exit 1
