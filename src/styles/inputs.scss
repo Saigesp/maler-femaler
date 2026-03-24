@@ -1,22 +1,72 @@
-.q-editor {
-  border: 1px solid rgba(0, 0, 0, 0.24);
-  &__toolbar {
-    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+// Brutalist overrides for Quasar q-field / q-input
+.q-field {
+  &--outlined {
+    .q-field__control {
+      border-radius: 0 !important;
+      background: var(--background-1) !important;
+      border: var(--border) !important;
+      box-shadow: var(--shadow) !important;
+      transition: box-shadow 0.1s, transform 0.1s !important;
+
+      &:before,
+      &:after {
+        border: none !important;
+      }
+
+      &:hover {
+        box-shadow: var(--shadow-hover) !important;
+        transform: translate(2px, 2px);
+        &:before {
+          border: none !important;
+        }
+      }
+    }
+
+    &.q-field--focused .q-field__control {
+      box-shadow: var(--shadow-hover) !important;
+      transform: translate(2px, 2px);
+      border-color: #0a0a0a !important;
+    }
   }
+
+  &__label {
+    font-size: 0.65rem !important;
+    font-weight: 900 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+    color: var(--text-color-default) !important;
+    opacity: 0.5;
+  }
+
+  &__native,
+  &__input {
+    font-weight: 700 !important;
+    color: var(--text-color-default) !important;
+    caret-color: var(--text-color-default) !important;
+  }
+
+  &__messages {
+    font-size: 0.65rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.04em !important;
+  }
+}
+
+.q-editor {
+  border: var(--border);
+  border-radius: 0;
+  box-shadow: var(--shadow);
+
+  &__toolbar {
+    border-bottom: var(--border);
+    background: var(--background-2);
+  }
+
   &__content {
-    b {
-      font-weight: 700;
-    }
-    i {
-      font-style: italic;
-    }
-    ul {
-      list-style: disc;
-      margin-left: 17px;
-    }
-    ol {
-      list-style: auto;
-      margin-left: 17px;
-    }
+    b { font-weight: 700; }
+    i { font-style: italic; }
+    ul { list-style: disc; margin-left: 17px; }
+    ol { list-style: auto; margin-left: 17px; }
   }
 }

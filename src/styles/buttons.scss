@@ -1,67 +1,51 @@
 .q-btn {
-  padding: 2px 8px;
-  border-radius: 3px;
-  font-size: 12px;
-  font-weight: 700;
+  border-radius: 0 !important;
+  border: var(--border) !important;
+  box-shadow: var(--shadow) !important;
+  font-weight: 900;
   text-transform: uppercase;
-  line-height: 20px;
-  text-align: center;
-  border: 1px solid rgba(0,0,0,.05);
-  white-space: nowrap;
-  margin: 6px 0 0 2px;
-  padding: 8px 16px;
+  letter-spacing: 0.05em;
+  transition: box-shadow 0.1s, transform 0.1s !important;
+  background: var(--accent) !important;
+  color: var(--text-color-default) !important;
+
   &:before {
-    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15) !important;
+    box-shadow: none !important;
   }
+
+  .q-focus-helper {
+    display: none !important;
+  }
+
   &:hover {
-    border: 1px solid rgba(0,0,0,.1);
-    &:before {
-      box-shadow: 0 3px 8px 0 rgba(0,0,0,.35) !important;
-    }
-    .q-focus-helper {
-      display: none !important;
-    }
+    box-shadow: var(--shadow-hover) !important;
+    transform: translate(2px, 2px);
   }
-  &.q-btn--active {
-    border: 1px solid rgba(0,0,0,.05);
-    box-shadow: none;
-    &:before {
-      box-shadow: none !important;
-    }
-  }
-  &.bg-white {
-    &:hover:before {
-      box-shadow: 0 3px 8px 0 rgba(0,0,0,.15) !important;
-    }
-    &.q-btn--active:before {
-      box-shadow: none !important;
-    }
+
+  &:active {
+    box-shadow: none !important;
+    transform: translate(5px, 5px);
   }
 
   &[disabled] {
-    opacity: .5 !important;
-    background-color: #d3d9df !important;
-    border: none;
-    &:hover:before,
-    &:before {
+    opacity: 0.4 !important;
+    background: var(--background-2) !important;
+    box-shadow: none !important;
+    transform: none !important;
+  }
+
+  &--flat {
+    background: transparent !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+    &:hover {
       box-shadow: none !important;
+      transform: none;
+      border-color: var(--text-color-default) !important;
     }
   }
 
   &--round {
-    border-radius: 50%;
-  }
-
-  &--flat {
-    border-color: transparent;
-    &:before {
-      box-shadow: none !important;
-    }
-    &:hover {
-      border-color: transparent;
-      &:before {
-        box-shadow: none !important;
-      }
-    }
+    border-radius: 0 !important;
   }
 }
