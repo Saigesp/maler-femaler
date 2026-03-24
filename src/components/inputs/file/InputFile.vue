@@ -11,8 +11,8 @@
       @rejected="onRejected"
       @update:model-value="loadFile"
     />
-    <div class="input-file__input">
-      <div class="input-file__name" @click="openSelector">
+    <div class="input-file__input" @click="openSelector">
+      <div class="input-file__name">
         <div class="input-file__label">
           {{props.label || 'Archivo'}}
         </div>
@@ -129,11 +129,6 @@ const openSelector = () => {
   if (loading.value) return;
   input.value.$el.click();
 };
-
-defineExpose({ emptyFile: () => {
-  file.value = null;
-  model.value = null;
-} });
 
 onMounted(() => {
   if (props.autofocus) input.value.pickFiles();

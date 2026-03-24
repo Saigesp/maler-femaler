@@ -212,7 +212,7 @@ watch(file, async (newFile) => {
 <style lang="scss">
 .app {
   padding: 60px 24px 80px;
-  max-width: 780px;
+  max-width: 880px;
   margin: 0 auto;
 
   h1 {
