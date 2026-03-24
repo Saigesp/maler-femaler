@@ -31,9 +31,9 @@
     />
     <div class="app__namelists">
       <span>Listas de nombres:</span>
-      <a href="/names/male.txt" download>male.txt</a>
-      <a href="/names/female.txt" download>female.txt</a>
-      <a href="/names/ignore.txt" download>ignore.txt</a>
+      <a :href="`${base}names/male.txt`" download>male.txt</a>
+      <a :href="`${base}names/female.txt`" download>female.txt</a>
+      <a :href="`${base}names/ignore.txt`" download>ignore.txt</a>
     </div>
     <div v-if="stats" class="app__stats">
       <h2>Resultados</h2>
@@ -82,9 +82,10 @@ const maleKey = useStorage('male-key', 'M');
 const femaleKey = useStorage('female-key', 'F');
 const nameColumn = useStorage('name-column', 'first_name');
 const genderColumn = useStorage('gender-column', 'gender');
+const base = import.meta.env.BASE_URL;
 
 async function fetchNameList(filename) {
-  const response = await fetch(`/names/${filename}`);
+  const response = await fetch(`${base}names/${filename}`);
   const text = await response.text();
   return text.split('\n').map(l => l.trim()).filter(Boolean);
 }
