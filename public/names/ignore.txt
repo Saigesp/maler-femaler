@@ -12,7 +12,8 @@ admin
 adsfasd
 adsfasdfasd
 al
-anjara
+anonim
+anònim
 anonimo
 another
 asd
@@ -20,6 +21,7 @@ asdadsads
 asddas
 asociacion
 asociación
+associació
 association
 ca
 caca
@@ -44,14 +46,12 @@ donaciones
 donde
 dr
 e.
-ed
 ejemplo
 el
 en
 f
 f.
 f°
-fe
 fj
 g
 gabinete
@@ -83,7 +83,6 @@ kuky
 la
 lady
 loquesomos
-lu
 lü
 luis/lui/louie/lu/lusi/coquina
 ʟᴇᴏɴᴇʟ
@@ -113,6 +112,7 @@ p123
 palermo
 papaostias
 payasa
+peligros
 perez
 pérez
 plataforma
@@ -124,7 +124,9 @@ protección
 prueba
 pruebaredirectform
 pruebaxx
+pssst...jaume
 psz
+puta
 qk
 que
 ℝ할핤핒
@@ -136,7 +138,6 @@ rodrigurz
 rojos
 sánchez
 sdfg
-serigne
 sincerebro
 sinvergüenzas
 so
@@ -153,6 +154,3 @@ tuputamdre
 xxx
 (｡･ω･｡)
 ּ؏ِـيْسَۍٰۧ
-peligros
-pssst...jaume
-puta

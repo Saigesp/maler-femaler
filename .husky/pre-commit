@@ -5,5 +5,13 @@ for file in public/names/female.txt public/names/male.txt public/names/ignore.tx
     sort -uf "$file" -o "$file"
 done
 
+# Check for duplicates across public/names files
+duplicates=$(sort public/names/female.txt public/names/male.txt public/names/ignore.txt | uniq -d)
+if [ -n "$duplicates" ]; then
+    echo "Error: duplicate names found across public/names files:"
+    echo "$duplicates"
+    exit 1
+fi
+
 # npm test
 npm run lint || exit 1
