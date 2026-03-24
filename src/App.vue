@@ -134,6 +134,7 @@ function normalizeName(raw) {
 
 function assignGenre(name, names) {
   if (!name || name.length <= 1) return '';
+  if (name.includes('@')) return '';
   if (names.ignore.includes(name)) return '';
   if (/\d/.test(name)) return '';
   if (names.female.includes(name)) return femaleKey.value || 'F';
