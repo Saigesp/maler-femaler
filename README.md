@@ -52,7 +52,3 @@ npm run preview
 - [Quasar](https://quasar.dev/) — componentes UI.
 - [VueUse](https://vueuse.org/) — utilidades de composición (persistencia en `localStorage`).
 - [Sass](https://sass-lang.com/) — preprocesador CSS.
-
-## Licencia
-
-MIT © [Saigesp](https://github.com/Saigesp)
