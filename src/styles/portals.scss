@@ -1,0 +1,20 @@
+.q-popup-edit {
+  &--unset-min-height {
+    min-height: unset !important;
+    overflow: hidden;
+  }
+}
+
+.item-locale {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  img {
+    width: 20px;
+    border-radius: 10px;
+  }
+  span {
+    gap: 10px;
+    align-items: center;
+  }
+}

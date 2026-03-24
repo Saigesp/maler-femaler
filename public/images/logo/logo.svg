@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="2915"
+   height="500"
+   viewBox="0 0 2915 500.00002"
+   version="1.1"
+   id="svg16"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/santi/Escritorio/favicon.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview18"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="0.23237857"
+     inkscape:cx="1626.656"
+     inkscape:cy="920.91107"
+     inkscape:window-width="1920"
+     inkscape:window-height="969"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg16" />
+  <defs
+     id="defs4">
+    <clipPath
+       id="clip-path">
+      <rect
+         id="Rectángulo_40"
+         data-name="Rectángulo 40"
+         width="174.446"
+         height="46.613998"
+         fill="none"
+         x="0"
+         y="0" />
+    </clipPath>
+  </defs>
+  <circle
+     style="fill:#0066ff;stroke-width:8.24692;stroke-linecap:round;stroke-linejoin:round"
+     id="path927"
+     cx="250.00002"
+     cy="250.00002"
+     r="216.30061" />
+  <g
+     aria-label="?"
+     id="text1443"
+     style="font-size:350.15px;line-height:1.25;text-align:center;text-anchor:middle;fill:#ffffff;stroke-width:0.777905"
+     transform="matrix(1.2855041,0,0,1.2855041,357.06524,-47.145537)">
+    <path
+       d="m -113.68846,289.55169 v -4.22766 q 0.12435,-21.76003 3.85464,-34.69171 3.85463,-12.93168 11.190872,-20.88963 7.336239,-7.95796 17.656711,-14.42379 7.709269,-4.97372 13.802078,-10.32048 6.092808,-5.34675 9.698757,-11.81258 3.605948,-6.59018 3.605948,-14.67248 0,-8.57967 -4.103321,-15.04551 -4.10332,-6.46584 -11.06653,-9.94744 -6.838867,-3.48161 -15.169851,-3.48161 -8.082297,0 -15.294193,3.60595 -7.211901,3.48161 -11.812591,10.44482 -4.60069,6.83886 -4.97372,17.03499 h -50.73196 q 0.62172,-24.86861 11.93693,-41.0332 11.31522,-16.28894 29.96668,-24.24689 18.65145,-8.0823 41.157541,-8.0823 24.744264,0 43.768749,8.20664 19.024485,8.0823 29.842329,23.50083 10.81784408,15.41854 10.81784408,37.17857 0,14.54814 -4.84937848,25.86335 -4.7250354,11.19088 -13.3047046,19.89489 -8.57967,8.57967 -20.267916,15.54288 -9.8231,5.84412 -16.164594,12.18562 -6.217152,6.34149 -9.325728,14.67248 -2.984233,8.33098 -3.108576,20.5166 v 4.22766 z m 24.619926,79.57954 q -12.434306,0 -21.262656,-8.70401 -8.70402,-8.82835 -8.57967,-21.13831 -0.12435,-12.18562 8.57967,-20.88963 8.82835,-8.70402 21.262656,-8.70402 11.812589,0 20.765287,8.70402 8.952699,8.70401 9.077042,20.88963 -0.124343,8.20664 -4.352006,15.0455 -4.103321,6.71453 -10.817845,10.81785 -6.714524,3.97897 -14.672478,3.97897 z"
+       style="font-weight:bold;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#ffffff;stroke-width:0.777905"
+       id="path4015" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:362.23px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#0066ff;fill-opacity:1;stroke-width:1"
+     x="1701.5054"
+     y="373.05695"
+     id="text4828"><tspan
+       sodipodi:role="line"
+       id="tspan4826"
+       x="1701.5054"
+       y="373.05695"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Inter;-inkscape-font-specification:'Inter Bold';fill:#0066ff;fill-opacity:1;stroke-width:1">genders</tspan></text>
+</svg>

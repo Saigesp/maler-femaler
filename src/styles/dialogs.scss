@@ -1,0 +1,24 @@
+.q-dialog {
+  &__inner {
+    .q-card {
+      padding: 20px;
+      min-width: 280px;
+      max-width: 100%;
+      background: var(--background-0);
+      box-shadow: 0 7px 14px 0 rgba(0, 0, 0, 0.09), 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+      @media screen and (min-width: 768px) {
+        min-width: 500px;
+      }
+      > .q-card__section {
+        padding: 0;
+      }
+      &__actions {
+        padding: 0;
+        margin-top: 10px;
+      }
+    }
+  }
+  &__title {
+    font-weight: 700;
+  }
+}

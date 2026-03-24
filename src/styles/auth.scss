@@ -1,0 +1,60 @@
+
+.main--auth {
+  height: auto;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-color: var(--background-1);
+}
+
+.auth {
+  height: 100vh;
+  padding: 10px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 12px;
+    line-height: 1.1;
+  }
+  p {
+    text-align: center;
+  }
+  .q-card {
+    width: 100%;
+    max-width: 360px;
+    margin: 20px auto 0;
+    padding-bottom: 8px;
+    @media screen and (min-width: 768px) {
+      margin: 0 auto;
+    }
+    .logo {
+      display: block;
+      margin: 20px auto;
+      height: auto;
+      width: 100%;
+      max-width: 250px;
+    }
+    .claim {
+      font-weight: 700;
+      font-family: var(--font-family-default);
+    }
+  }
+  .q-form__buttons {
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+    .q-btn {
+      flex: 1 1 100%;
+    }
+  }
+  .q-form__links {
+    text-align: center;
+  }
+}

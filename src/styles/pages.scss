@@ -1,0 +1,97 @@
+.page {
+  padding: 56px 20px 20px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1 1 auto;
+  &--full {
+    max-width: unset;
+  }
+  &--wide {
+    max-width: 1200px;
+  }
+  &--narrow {
+    max-width: 800px;
+  }
+  &--texts {
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      margin-top: 40px;
+    }
+    h2 {
+      margin-top: 36px;
+    }
+    ul {
+      margin: 0 0 16px;
+      li {
+        list-style: disc;
+        margin-left: 15px;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  &--tabs {
+    .q-splitter {
+      margin-left: -20px;
+      &__separator {
+        display: none;
+        @media screen and (max-width: 768px) {
+          display: none !important;
+        }
+      }
+      &__before {
+        min-width: 240px;
+        max-width: 250px;
+        @media screen and (max-width: 768px) {
+          display: none !important;
+        }
+      }
+      &__after .q-tab-panel {
+        @media screen and (min-width: 768px) {
+          padding-top: 8px;
+        }
+        @media screen and (min-width: 900px) {
+          padding-left: 30px;
+        }
+      }
+    }
+    .tabs {
+      &--horizontal {
+        @media screen and (min-width: 768px) {
+          display: none !important;
+        }
+      }
+    }
+    .q-tab {
+      @media screen and (min-width: 768px) {
+        justify-content: flex-start;
+      }
+      &__content {
+        text-transform: none;
+        @media screen and (min-width: 768px) {
+          flex-direction: row;
+          gap: 10px;
+        }
+      }
+    }
+    .q-tab-panels {
+      background: transparent;
+    }
+    .q-tabs--vertical {
+      .q-tab {
+        padding: 0 30px 0 18px;
+        &--active {
+          color: var(--q-primary);
+        }
+      }
+      .q-tab__indicator {
+        display: none;
+      }
+    }
+    .q-tab-panel {
+      .header2-page {
+        border-bottom: none;
+      }
+    }
+  }
+}

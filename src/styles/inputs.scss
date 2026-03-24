@@ -1,0 +1,22 @@
+.q-editor {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  &__toolbar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  }
+  &__content {
+    b {
+      font-weight: 700;
+    }
+    i {
+      font-style: italic;
+    }
+    ul {
+      list-style: disc;
+      margin-left: 17px;
+    }
+    ol {
+      list-style: auto;
+      margin-left: 17px;
+    }
+  }
+}

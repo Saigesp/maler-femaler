@@ -1,0 +1,49 @@
+body {
+  font-family: var(--font-family-default);
+  font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  clear: both;
+  font-weight: 700;
+  margin: 0 0 0.25em;
+  line-height: 1.3846153846;
+  font-family: var(--font-family-title);
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+strong {
+  font-weight: 600;
+}
+
+a {
+  color: var(--q-primary);
+  text-decoration: none;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
