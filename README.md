@@ -2,6 +2,8 @@
 
 Aplicación web que enriquece un archivo CSV añadiendo una columna de género basada en el nombre de pila de cada fila.
 
+[Live web](https://saigesp.github.io/maler-femaler/)
+
 ## ¿Cómo funciona?
 
 1. Sube un archivo CSV que contenga una columna con nombres de pila.
